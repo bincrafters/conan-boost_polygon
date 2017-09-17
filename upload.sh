@@ -1,1 +1,0 @@
-conan upload --all --remote bincrafters Boost.Polygon/1.65.1@bincrafters/testing
