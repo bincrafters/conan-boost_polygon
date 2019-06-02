@@ -4,12 +4,9 @@
 from conans import python_requires
 
 
-base = python_requires("boost_base/1.69.0@bincrafters/testing")
+base = python_requires("boost_base/2.0.0@bincrafters/testing")
+
 
 class BoostPolygonConan(base.BoostBaseConan):
     name = "boost_polygon"
-    version = "1.69.0"
-    url = "https://github.com/bincrafters/conan-boost_polygon"
-    lib_short_names = ["polygon"]
-    header_only_libs = ["polygon"]
-    b2_requires = ["boost_config"]
+    version = "1.70.0"
